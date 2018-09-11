@@ -15,15 +15,15 @@ function logWhisper(string) {
 }
 
 var lowercase = "hello"
-var uppercase = "uppercase.toUpperCase(string)"
-love = "I love you, Grandma."
+var uppercase = "HELLO"
+var love = "I love you, Grandma."
 
 function sayHiToGrandma(string) {
-  if(string=lowercase)
-}
-
-
-
-function sayHiToGrandma(lowercase, uppercase, love) {
-  return ("I can\'t hear you!"), ("YES INDEED!"), ("I love you, too.")
-}
+  if (string===love) {
+    return "I love you, too."
+  } else if (string===lowercase) {
+    return "I can\'t hear you!";
+  } else if (string===uppercase) {
+    return "YES INDEED!";
+  } else ()
+  }
